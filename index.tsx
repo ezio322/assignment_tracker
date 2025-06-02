@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Plus, Calendar, Users, CheckCircle, Clock, AlertCircle, User, LogOut, LogIn } from 'lucide-react';
 
 // Supabase configuration - Replace with your actual Supabase URL and anon key
-const SUPABASE_URL = 'https://your-project-id.supabase.co';
-const SUPABASE_ANON_KEY = 'your-anon-key';
+const SUPABASE_URL = 'https://hfrlkbwhqaqunhsykbbs.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhmcmxrYndocWFxdW5oc3lrYmJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4ODM3MTgsImV4cCI6MjA2NDQ1OTcxOH0.qPP-EHKSVweM_nW4eiVT_N8XRiTC0AWdh6lEYfB-mFA';
 
 // Supabase client simulation for demo purposes
 // In a real app, you would use: import { createClient } from '@supabase/supabase-js'
