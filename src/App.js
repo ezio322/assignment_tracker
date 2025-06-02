@@ -161,8 +161,7 @@ function AssignmentTracker() {
             created_by: user.id
           }
         ])
-        .select('*')
-        .execute();
+        .select('*');
 
       if (error) throw error;
 
